@@ -1,0 +1,13 @@
+a {
+text-decoration: none;
+}
+
+li {
+list-style: none;
+display: inline-block;
+}
+
+li ::after {
+content: "|";
+margin-left: 10px;
+}
